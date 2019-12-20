@@ -1,0 +1,28 @@
+{
+  "model": {
+    "input_size": 113 ,
+    "hidden_size" : 32 ,
+	  "hidden_size_2" : 32 ,
+    "rnn_layers" : 1 ,
+    "out_channels" : 32 ,
+    "height" : 3 ,
+    "cnn_layers" :1 ,
+    "linear_hidden_size" :32,
+    "linear_layers" : 2 ,
+    "output_size" : 2 ,
+    "text_input_size" : 100,
+    "text_hidden_size" : 32,
+    "text_rnn_layers" : 1 ,
+    "text_out_channels" : 2
+
+  },
+
+  "data": {
+    "sequence_length": 5
+  },
+
+  "db_config": {
+    "host": "",
+    "port": 4
+  }
+}
